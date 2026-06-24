@@ -55,7 +55,17 @@ export default function Footer() {
               <h1 className="text-[14vw] sm:text-[13vw] lg:text-[11vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">
                 СТРОЙМАСТЕР
               </h1>
-              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} СтройМастер</p>
+              <div className="flex flex-col items-end gap-2">
+                <a
+                  href="https://wa.me/89299543999?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D1%80%D0%B0%D1%81%D1%87%D1%91%D1%82"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white text-black px-6 py-3 text-sm uppercase tracking-wide font-bold hover:bg-neutral-200 transition-colors duration-300"
+                >
+                  Написать в WhatsApp
+                </a>
+                <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} СтройМастер</p>
+              </div>
             </div>
           </div>
         </div>
