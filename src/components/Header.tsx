@@ -6,7 +6,10 @@ export default function Header({ className }: HeaderProps) {
   return (
     <header className={`absolute top-0 left-0 right-0 z-10 p-6 ${className ?? ""}`}>
       <div className="flex justify-between items-center">
-        <div className="text-white text-sm uppercase tracking-wide font-bold">СтройМастер</div>
+        <div className="flex flex-col">
+          <div className="text-white text-sm uppercase tracking-wide font-bold">СтройМастер</div>
+          <a href="tel:+79299543999" className="text-white/70 hover:text-white transition-colors duration-300 text-xs tracking-wide">+7 929 954-39-99</a>
+        </div>
         <nav className="flex gap-8 items-center">
           <a
             href="#services"
